@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AFCA650C043B827BFAC1132A /* Pods_NASApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1371330C21B2B92F30B84B1 /* Pods_NASApp.framework */; };
+		DE3C95182169F358000C4DBD /* RoverPostcardMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C95172169F358000C4DBD /* RoverPostcardMakerViewController.swift */; };
+		DE514B29216D465E00F8BA06 /* DataDownloaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE514B28216D465E00F8BA06 /* DataDownloaded.swift */; };
+		DE8C50F1216BD085002004A1 /* EyeInTheSkyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C50F0216BD085002004A1 /* EyeInTheSkyViewController.swift */; };
+		DE8C50F3216BD7BE002004A1 /* EarthPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C50F2216BD7BE002004A1 /* EarthPhoto.swift */; };
 		DEA8D40A2168A8E0009B3621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8D4092168A8E0009B3621 /* AppDelegate.swift */; };
 		DEA8D40F2168A8E0009B3621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA8D40D2168A8E0009B3621 /* Main.storyboard */; };
 		DEA8D4142168A8E1009B3621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA8D4132168A8E1009B3621 /* Assets.xcassets */; };
 		DEA8D4172168A8E1009B3621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA8D4152168A8E1009B3621 /* LaunchScreen.storyboard */; };
-		DEA8D4222168A8E1009B3621 /* NASAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8D4212168A8E1009B3621 /* NASAppTests.swift */; };
 		DEA8D42D2168B90D009B3621 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8D42C2168B90D009B3621 /* HomeViewController.swift */; };
 		DEA8D4312168F093009B3621 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8D4302168F093009B3621 /* Response.swift */; };
 		DEA8D4332168F0BA009B3621 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8D4322168F0BA009B3621 /* APIClient.swift */; };
@@ -42,6 +45,10 @@
 		57D26FA7D7CFA6B28FE4226B /* Pods-NASApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NASApp/Pods-NASApp.release.xcconfig"; sourceTree = "<group>"; };
 		7A44EC398917FB27A3F30745 /* Pods-NASAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NASAppTests/Pods-NASAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BEAC302D71260991D8485900 /* Pods_NASAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NASAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3C95172169F358000C4DBD /* RoverPostcardMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverPostcardMakerViewController.swift; sourceTree = "<group>"; };
+		DE514B28216D465E00F8BA06 /* DataDownloaded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloaded.swift; sourceTree = "<group>"; };
+		DE8C50F0216BD085002004A1 /* EyeInTheSkyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeInTheSkyViewController.swift; sourceTree = "<group>"; };
+		DE8C50F2216BD7BE002004A1 /* EarthPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthPhoto.swift; sourceTree = "<group>"; };
 		DEA8D4062168A8E0009B3621 /* NASApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA8D4092168A8E0009B3621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA8D40E2168A8E0009B3621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,7 +56,6 @@
 		DEA8D4162168A8E1009B3621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA8D4182168A8E1009B3621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA8D41D2168A8E1009B3621 /* NASAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA8D4212168A8E1009B3621 /* NASAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAppTests.swift; sourceTree = "<group>"; };
 		DEA8D4232168A8E1009B3621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA8D42C2168B90D009B3621 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DEA8D4302168F093009B3621 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
@@ -144,8 +150,8 @@
 		DEA8D4202168A8E1009B3621 /* NASAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				DEA8D4212168A8E1009B3621 /* NASAppTests.swift */,
 				DEA8D4232168A8E1009B3621 /* Info.plist */,
+				DE514B28216D465E00F8BA06 /* DataDownloaded.swift */,
 			);
 			path = NASAppTests;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			children = (
 				DEA8D42C2168B90D009B3621 /* HomeViewController.swift */,
 				DEA8D43E21690109009B3621 /* MarsPhotosCollectionViewController.swift */,
+				DE3C95172169F358000C4DBD /* RoverPostcardMakerViewController.swift */,
+				DE8C50F0216BD085002004A1 /* EyeInTheSkyViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -175,6 +183,7 @@
 			children = (
 				DEA8D43B2168F270009B3621 /* Endpoint */,
 				DEA8D43C2168F5ED009B3621 /* MarsRover.swift */,
+				DE8C50F2216BD7BE002004A1 /* EarthPhoto.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -377,7 +386,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA8D43D2168F5ED009B3621 /* MarsRover.swift in Sources */,
+				DE8C50F1216BD085002004A1 /* EyeInTheSkyViewController.swift in Sources */,
 				DEA8D43A2168F26C009B3621 /* Endpoint.swift in Sources */,
+				DE3C95182169F358000C4DBD /* RoverPostcardMakerViewController.swift in Sources */,
 				DEA8D4372168F1B3009B3621 /* NASAAPIClient.swift in Sources */,
 				DEA8D40A2168A8E0009B3621 /* AppDelegate.swift in Sources */,
 				DEA8D44221690365009B3621 /* MarsRoverListDataSource.swift in Sources */,
@@ -385,6 +396,7 @@
 				DEA8D4312168F093009B3621 /* Response.swift in Sources */,
 				DEA8D42D2168B90D009B3621 /* HomeViewController.swift in Sources */,
 				DEA8D445216905A2009B3621 /* MarsRoverPhotoCell.swift in Sources */,
+				DE8C50F3216BD7BE002004A1 /* EarthPhoto.swift in Sources */,
 				DEA8D4352168F0D9009B3621 /* APIError.swift in Sources */,
 				DEA8D4332168F0BA009B3621 /* APIClient.swift in Sources */,
 			);
@@ -394,7 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA8D4222168A8E1009B3621 /* NASAppTests.swift in Sources */,
+				DE514B29216D465E00F8BA06 /* DataDownloaded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

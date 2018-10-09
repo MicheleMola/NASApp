@@ -14,10 +14,11 @@ protocol APIClient {
 }
 
 extension APIClient {
-  typealias JSONTaskCompletionHandler = (Decodable?, APIError?) -> Void
   
+  typealias JSONTaskCompletionHandler = (Decodable?, APIError?) -> Void
   private func decodingTask<T: Decodable>(with request: URLRequest, decodingType: T.Type, completionHandler completion: @escaping JSONTaskCompletionHandler) -> URLSessionDataTask {
     
+    print(request)
     let task = session.dataTask(with: request) { data, response, error in
       if let error = error as? URLError {
         switch error.code {
@@ -35,6 +36,7 @@ extension APIClient {
         completion(nil, .requestFailed)
         return
       }
+      
       if httpResponse.statusCode == 200 {
         if let data = data {
           do {

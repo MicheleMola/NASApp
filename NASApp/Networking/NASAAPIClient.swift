@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 class NASAAPIClient: APIClient {
   internal let session: URLSession
@@ -30,7 +31,17 @@ class NASAAPIClient: APIClient {
       guard let photos = json as? MarsRoverPhotos else { return nil }
       return photos
     }, completion: completion)
+  }
   
+  typealias EarthPhotoCompletionHandler = (Response<EarthPhoto?, APIError>) -> Void
+  func getEarthPhoto(byCoordinate coordinate: CLLocationCoordinate2D, completion: @escaping EarthPhotoCompletionHandler) {
+    
+    let request = NASA.earthPhoto(apiKey: apiKey, lat: coordinate.latitude, lon: coordinate.longitude).request
+    
+    fetch(with: request, decode: { json -> EarthPhoto? in
+      guard let earthPhoto = json as? EarthPhoto else { return nil }
+      return earthPhoto
+    }, completion: completion)
   }
   
 }

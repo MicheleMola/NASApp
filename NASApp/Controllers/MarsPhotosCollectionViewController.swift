@@ -42,7 +42,19 @@ class MarsPhotosCollectionViewController: UICollectionViewController {
       }
     }
   }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "showDetail" {
+      if let roverPostcardMakerViewController = segue.destination as? RoverPostcardMakerViewController {
+        if let indexPath = collectionView.indexPathsForSelectedItems?.first {
+          let marsRover = dataSource.marsRover(at: indexPath)
+          roverPostcardMakerViewController.marsRover = marsRover
+        }
+      }
+    }
+  }
 
+  
   
 }
 

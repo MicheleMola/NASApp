@@ -31,6 +31,7 @@ extension Endpoint {
 
 enum NASA {
   case marsPhotos(apiKey: String, page: Int, sol: Int)
+  case earthPhoto(apiKey: String, lat: Double, lon: Double)
 }
 
 extension NASA: Endpoint {
@@ -41,6 +42,7 @@ extension NASA: Endpoint {
   var path: String {
     switch self {
     case .marsPhotos: return "/mars-photos/api/v1/rovers/curiosity/photos"
+    case .earthPhoto: return "/planetary/earth/imagery/"
     }
   }
   
@@ -51,6 +53,12 @@ extension NASA: Endpoint {
         URLQueryItem(name: "api_key", value: apiKey),
         URLQueryItem(name: "page", value: "\(page)"),
         URLQueryItem(name: "sol", value: "\(sol)")
+      ]
+    case .earthPhoto(let apiKey, let lat, let lon):
+      return [
+        URLQueryItem(name: "api_key", value: apiKey),
+        URLQueryItem(name: "lat", value: "\(lat)"),
+        URLQueryItem(name: "lon", value: "\(lon)")
       ]
     }
   }

@@ -37,4 +37,8 @@ class MarsRoverListDataSource: NSObject, UICollectionViewDataSource {
   func update(with marsRoverPhotos: [MarsRover]) {
     self.marsRoverPhotos = marsRoverPhotos
   }
+  
+  func marsRover(at indexPath: IndexPath) -> MarsRover {
+    return marsRoverPhotos[indexPath.row]
+  }
 }
