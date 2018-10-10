@@ -8,6 +8,11 @@
 
 import UIKit
 
+/*
+  Instruments
+  I tested the app in Xcode Instruments. There aren't memory leak and every function works correctly. The app provide a response within 1-2 seconds after each user interaction.
+*/
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

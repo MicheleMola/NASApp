@@ -9,6 +9,7 @@
 import UIKit
 import CoreLocation
 import Kingfisher
+import SVProgressHUD
 
 class EyeInTheSkyViewController: UIViewController {
   
@@ -33,11 +34,13 @@ class EyeInTheSkyViewController: UIViewController {
     if let streetAddress = streetAddressTextField.text {
       let geoCoder = CLGeocoder()
       
+      // Get Coordinate by street address
       geoCoder.geocodeAddressString(streetAddress) { (placemarks, error) in
         guard let placemarks = placemarks, let location = placemarks.first?.location else {
           return
         }
         
+        // Populate latitude and longitude textfields
         self.latitudeTextField.text = "\(location.coordinate.latitude)"
         self.longitudeTextField.text = "\(location.coordinate.longitude)"
       
@@ -47,15 +50,23 @@ class EyeInTheSkyViewController: UIViewController {
   }
   
   func getEarthPhoto(byCoordinate coordinate: CLLocationCoordinate2D) {
+    // Show Spinner
+    SVProgressHUD.show()
     self.client.getEarthPhoto(byCoordinate: coordinate) { [unowned self] response in
       switch response {
       case .success(let earthPhoto):
         guard let earthPhoto = earthPhoto else { return }
         
-        self.photoImageView.kf.setImage(with: earthPhoto.url, placeholder: UIImage(named: "placeholder.png"))
-        
+        // Set image in imageView with the Kingfisher library 
+        self.photoImageView.kf.setImage(with: earthPhoto.url, placeholder: UIImage(named: "placeholder.png")) { (image, error, cacheType, imageUrl) in
+          
+          // Dismiss Spinner
+          SVProgressHUD.dismiss()
+        }
       case .failure(let error):
         print(error)
+        // Dismiss Spinner
+        SVProgressHUD.dismiss()
       }
     }
   }

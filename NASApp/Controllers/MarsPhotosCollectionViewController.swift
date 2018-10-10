@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class MarsPhotosCollectionViewController: UICollectionViewController {
   
@@ -32,7 +33,9 @@ class MarsPhotosCollectionViewController: UICollectionViewController {
   }
   
   func getMarsRoverPhotos() {
+    SVProgressHUD.show()
     client.getMarsPhotos { response in
+      SVProgressHUD.dismiss()
       switch response {
       case .success(let marsRoverPhotos):
         guard let marsRoverPhotos = marsRoverPhotos else { return }
@@ -54,8 +57,6 @@ class MarsPhotosCollectionViewController: UICollectionViewController {
     }
   }
 
-  
-  
 }
 
 extension MarsPhotosCollectionViewController: UICollectionViewDelegateFlowLayout {

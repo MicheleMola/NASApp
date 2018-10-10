@@ -6,6 +6,7 @@ target 'NASApp' do
   use_frameworks!
 
   pod 'Kingfisher', '~> 4.0'
+  pod 'SVProgressHUD'
 
   # Pods for NASApp
 

@@ -19,7 +19,6 @@ class RoverPostcardMakerViewController: UIViewController {
   
   @IBOutlet weak var scrollView: UIScrollView!
   
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -29,9 +28,12 @@ class RoverPostcardMakerViewController: UIViewController {
   func setupView() {
     
     if let marsRover = marsRover {
+      
+      // Set image in imageView with the Kingfisher library
       marsImageView.kf.setImage(with: marsRover.img_src, placeholder: UIImage(named: "placeholder.png"))
     }
     
+    // Register notification observers
     NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name:UIResponder.keyboardWillShowNotification, object: nil)
     NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name:UIResponder.keyboardWillHideNotification, object: nil)
   }
@@ -41,30 +43,34 @@ class RoverPostcardMakerViewController: UIViewController {
     return true
   }
   
-  @objc func keyboardWillShow(notification:NSNotification){
+  @objc func keyboardWillShow(notification:NSNotification) {
     
     var userInfo = notification.userInfo!
     var keyboardFrame:CGRect = (userInfo[UIResponder.keyboardFrameBeginUserInfoKey] as! NSValue).cgRectValue
+    
+    // Get keyboard frame
     keyboardFrame = self.view.convert(keyboardFrame, from: nil)
     
     var contentInset:UIEdgeInsets = self.scrollView.contentInset
     contentInset.bottom = keyboardFrame.size.height
     
     DispatchQueue.main.async {
+      // Animate re-position
       UIView.animate(withDuration: 0.8, delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: {
+        // Re-position content in scrollView
         self.scrollView.contentInset = contentInset
       }, completion: nil)
     }
     
-    
   }
   
-  @objc func keyboardWillHide(notification:NSNotification){
+  @objc func keyboardWillHide(notification:NSNotification) {
     
     let contentInset:UIEdgeInsets = UIEdgeInsets.zero
     
     DispatchQueue.main.async {
       UIView.animate(withDuration: 0.2, delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: {
+        // Reset scrollView content
         self.scrollView.contentInset = contentInset
       }, completion: nil)
     }
@@ -73,7 +79,11 @@ class RoverPostcardMakerViewController: UIViewController {
   
   @IBAction func pressedAddText(_ sender: UIButton) {
     if let text = messageTextField.text, let image = marsImageView.image {
+      
+      // Add text to image
       let imageWithText = textToImage(drawText: text, inImage: image, atPoint: CGPoint(x: 10, y: 10))
+      
+      // Set new image with text in imageView
       marsImageView.image = imageWithText
     }
   }
@@ -111,10 +121,14 @@ class RoverPostcardMakerViewController: UIViewController {
     if MFMailComposeViewController.canSendMail() {
       let mail = MFMailComposeViewController()
       mail.mailComposeDelegate = self
+      
+      // Default default recipient
       mail.setToRecipients(["michele.mola92@gmail.com"])
+      
       mail.setSubject("Your postcard")
       mail.setMessageBody("Mars rover postcard", isHTML: false)
       
+      // Convert image to data
       if let data = image.jpegData(compressionQuality: 1.0) {
         mail.addAttachmentData(data, mimeType: "image/jpeg", fileName: "marsRoverPostcard.jpeg")
         self.present(mail, animated: true, completion: nil)
