@@ -7,44 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008D5DDE0942B5C3EC51E6D4557DFD64 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85BC3444EFEC682AEB1D0EBB301C9B1 /* Placeholder.swift */; };
-		07C0515BAB41A01EDFCB5164FB622170 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6915372D6C183E4ADBAD6DDB4BA5999 /* ImageModifier.swift */; };
-		179FCD8BC40E115DFA9C05F603A878A9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D15DA39C6E2CF68AE532F962CF22B9 /* Resource.swift */; };
-		1EC361580AD57BDCF4999A1D8C5F7067 /* Pods-NASApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE11FCC7FC205777F4CA66E0C3F11FD /* Pods-NASApp-dummy.m */; };
-		20FEB969513418DFAC5090C858D10516 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593766F839E7E059C1FFDFEFC7279F59 /* Kingfisher.swift */; };
-		2C715D11CC2417DCD5345A9FA957D765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC365FEF314CAE9760892B813E187E /* Foundation.framework */; };
+		008D5DDE0942B5C3EC51E6D4557DFD64 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0A11CBB8E1245C33049CB9AA303E5 /* Placeholder.swift */; };
+		07C0515BAB41A01EDFCB5164FB622170 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519F3B414842A6BB8598C21B16154F9 /* ImageModifier.swift */; };
+		0BCD906D9D3493C69973FEB9C09B3A11 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 281080FAF60B9B1AE2E7CD8DE4F58B9A /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		179FCD8BC40E115DFA9C05F603A878A9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45F999C7630504DD87271DD9AB1150 /* Resource.swift */; };
+		20FEB969513418DFAC5090C858D10516 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226AF77680DB807367B05A6C28EE2619 /* Kingfisher.swift */; };
+		250AC9CBEB39F1F7ADD8227CF28ECAEF /* Pods-NASApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE11FCC7FC205777F4CA66E0C3F11FD /* Pods-NASApp-dummy.m */; };
 		2E4071B205BB304227C4595B5F1186B3 /* Pods-NASAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFEE535A017EF4958D53D8F1EBF656E /* Pods-NASAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F84C0A84F2B5A0E9E3073417CA651C3 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACEF73DDC51ADD99C0C6BBE3FAC8E4 /* ImageTransition.swift */; };
-		34AEF9EE16EAEAF7FA0E66A48982F0C8 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D513054D22F0F7DF537DAE691DF098F /* UIButton+Kingfisher.swift */; };
-		3554E5702FFEA0C2FC74B19EEC7D6325 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BAC26D78DB33794F9BC456BB1F3404 /* Indicator.swift */; };
-		41D22E6F4C3E24D8FE690DE6D644AC3E /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81C7B8A9A0ED0708E9264F91C23FB8 /* ImagePrefetcher.swift */; };
-		453378DA661AD7FCBA79D1BFA59302EB /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51313B06008A49CEE34BA3780BDE1DF3 /* FormatIndicatedCacheSerializer.swift */; };
-		481698F7891B645D8BB3A05204580A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC365FEF314CAE9760892B813E187E /* Foundation.framework */; };
-		66CCE448DAB752E36445FD69CD761C93 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9F1FF08D5D1E848E01F627B669B79 /* KingfisherManager.swift */; };
-		74991D9F2A55044D75545D00A70C8CA9 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = CF58A2C8B2D1E80C830DD92F91F41CBD /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A1E4900C0AA7CE6E2454C64AA169E2 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9EA4E7E8A6B7A4EDA54F899FEBE4E /* ImageView+Kingfisher.swift */; };
-		833B4550B26D2A945E08C978BB7BD505 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC094468AAD49AFE1061B6CD18CADAA /* String+MD5.swift */; };
-		88CE4EE02A104D4BD65DE024ACF209F7 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641EFFF236A856B4166FEB2B06E3B66C /* KingfisherOptionsInfo.swift */; };
-		90523ACEFEF8D56C35F5CF41CB70EE58 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6004481E9B47EDEBABB32FAC17846F51 /* ImageCache.swift */; };
-		95AB33523EE2DA5C145714D7279E8D27 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AB57F53E7A8C9B43E7A7FCC1AA411 /* CacheSerializer.swift */; };
-		97EB2E795C2BE40106D734B5C0AEBDB3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA0EE7A103885B0606126A579FBFF3 /* ImageDownloader.swift */; };
-		9EDFA1C34D4853B76A78B8E40B89C775 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91647A8F0DB816B83E9D56525FA36939 /* RequestModifier.swift */; };
-		A7152AB4DCA3D010ADA51F5D2ADF4911 /* Pods-NASApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BA0514C43646E144739ED962AAAADC /* Pods-NASApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE633B3532903E2EF04B5D7BA480C3C7 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EBEEFF6C8E4E7A9FD92E4A3B139319 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1D0744B9405A528508A49B4DE06A8DB /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11373FF82ED248D8BE23AE3AAA7840D6 /* Filter.swift */; };
-		B239F6D91EC58C8046497C0909CB2E78 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4898867061D203311A4AC3C7A70B2F /* Box.swift */; };
-		B2EFCB251998FC9F2F1D168E53BD2111 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6757C44D1A8B62FD3A7062E345EA7F6 /* CFNetwork.framework */; };
-		BBE6B85E960BF7927A44E2329DE05A5F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE40A7EAEF227D102A4A633F1DD74B7F /* Image.swift */; };
-		C9538BAC268AB8AAB4336A4E62B2EA1F /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAEDAC7F43D1E03236DD2096D0220DA /* Kingfisher-dummy.m */; };
-		D274C2230E53457776F9D4EF567A0E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC365FEF314CAE9760892B813E187E /* Foundation.framework */; };
-		DAC3F0C65BA82526594477C6DDF06745 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71287AFAF7C48DDADA45D6AB921B36EF /* ImageProcessor.swift */; };
-		EA9BE16ECCC17CC9AD847C52D1B64671 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D10678DCDE585C27DF431ED1FC4FCF /* AnimatedImageView.swift */; };
-		F667936752E8742E44668CC80FC31720 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0088FC709E3907A18952C072C9C8368 /* ThreadHelper.swift */; };
+		2E65457DBC5AF1923921135655EEBC2D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CB9B9A9FB5C26ECBC9AA4E8534AD88 /* SVProgressHUD.m */; };
+		2F84C0A84F2B5A0E9E3073417CA651C3 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FEFB4CC4B32D0F0FD37F10EE9722A /* ImageTransition.swift */; };
+		340D522C7B17026B6AA052AA8520B8F4 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCA291E66DAFC6C56877A7B7A6F830 /* SVProgressAnimatedView.m */; };
+		34AEF9EE16EAEAF7FA0E66A48982F0C8 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F76CBA95F2FD53E6AB992D384ADE5 /* UIButton+Kingfisher.swift */; };
+		3554E5702FFEA0C2FC74B19EEC7D6325 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F503C168884E292AC0BBAE8CDC7902 /* Indicator.swift */; };
+		41D22E6F4C3E24D8FE690DE6D644AC3E /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DAA655D02D3BBD841091912426B9D /* ImagePrefetcher.swift */; };
+		453378DA661AD7FCBA79D1BFA59302EB /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E9F2F22CA888DF55BC4A49BF72A13 /* FormatIndicatedCacheSerializer.swift */; };
+		481698F7891B645D8BB3A05204580A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9727F8345684E2B470057C3E73CF3E68 /* Foundation.framework */; };
+		4F7BC1E8189AC06DEFCE281858F5CF92 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BC7BE79E9594BAE65ED745FEB9E15D /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5572BE5E7A7B74B9A757519C917F5209 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA336CB3FD2348AD4CF10B0E18E62F /* SVRadialGradientLayer.m */; };
+		5BCDDB2CB827A934F2C722A04FBCCD4E /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BA8572F8E17ADF6361DB12B5887A3F /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6533AB343B86DA0833C73109F6EB92A0 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88817976687AC18036A72949D1C5E3BC /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6536D8E83436DEDB85B4BD44DD7C2CD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616D9BE42DB4DA57AA3F3BC1835D4FC4 /* QuartzCore.framework */; };
+		66CCE448DAB752E36445FD69CD761C93 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC27B8906D819659A97D7C1C9514E5 /* KingfisherManager.swift */; };
+		74991D9F2A55044D75545D00A70C8CA9 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 96521ADF8993985B0F1410485D40F29B /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A1E4900C0AA7CE6E2454C64AA169E2 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A32773F2E9C2FF4D2FD177BB995DF /* ImageView+Kingfisher.swift */; };
+		8261E91630AED4C338E9E6D44DBA9CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9727F8345684E2B470057C3E73CF3E68 /* Foundation.framework */; };
+		833B4550B26D2A945E08C978BB7BD505 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16CD20D6A0F24E12573E71E8B0A9E /* String+MD5.swift */; };
+		88CE4EE02A104D4BD65DE024ACF209F7 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62009A334C82DE53F5B95782C9B6FEEA /* KingfisherOptionsInfo.swift */; };
+		8B466C9DC0A8C4432E78B90B2BC8239B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F27EB2475CE4624F201B17AB7D1EDDA3 /* SVIndefiniteAnimatedView.m */; };
+		90523ACEFEF8D56C35F5CF41CB70EE58 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F545EA335361A10609D713533E1115E /* ImageCache.swift */; };
+		95AB33523EE2DA5C145714D7279E8D27 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9021D0ED371DB73DB1E14A46A0ED44 /* CacheSerializer.swift */; };
+		97EB2E795C2BE40106D734B5C0AEBDB3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60BEED6E5EBD7AC8B48291AA81F19A /* ImageDownloader.swift */; };
+		9EDFA1C34D4853B76A78B8E40B89C775 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4902811CCE6CC71A524EBA6568754419 /* RequestModifier.swift */; };
+		AE633B3532903E2EF04B5D7BA480C3C7 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6715C17842F7B854FF3711C5A8EECF9A /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D0744B9405A528508A49B4DE06A8DB /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CBD27A041DADA9965AE03D10905FF /* Filter.swift */; };
+		B239F6D91EC58C8046497C0909CB2E78 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51B2D10C23383BEF338B89C016C672 /* Box.swift */; };
+		B2EFCB251998FC9F2F1D168E53BD2111 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBCB6146B49D77A78121549E24C31E8 /* CFNetwork.framework */; };
+		BBE6B85E960BF7927A44E2329DE05A5F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9A26D321EA72233F1E66C6E6F2DB8 /* Image.swift */; };
+		C9538BAC268AB8AAB4336A4E62B2EA1F /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77752E99D313445E0FC628430B65EFE2 /* Kingfisher-dummy.m */; };
+		CDEA2C9F9D1DAF7CC519B3359541E70B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 692A58B891858FE90677A8651C7F31EF /* SVProgressHUD.bundle */; };
+		D25B18D387BAAE02B2EB6A9A914F8D69 /* Pods-NASApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BA0514C43646E144739ED962AAAADC /* Pods-NASApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D274C2230E53457776F9D4EF567A0E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9727F8345684E2B470057C3E73CF3E68 /* Foundation.framework */; };
+		DAC3F0C65BA82526594477C6DDF06745 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39659CC638CCDBD0D55151E5BEE04F7 /* ImageProcessor.swift */; };
+		EA9BE16ECCC17CC9AD847C52D1B64671 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E34B0F9FAE6D707849A975FBACE188 /* AnimatedImageView.swift */; };
+		EBA687D681AFA410D8A0D5B33D20EA62 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C3771F0226C761D0C59B45BB997076D5 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44FE7EBF23A6907E3D2E2A671B210F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9727F8345684E2B470057C3E73CF3E68 /* Foundation.framework */; };
+		F667936752E8742E44668CC80FC31720 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9750478EB5E8BEE0E9244ECDC373DC /* ThreadHelper.swift */; };
 		FCD347373C15AE0796B66ED99FF9364B /* Pods-NASAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59918F02A408AF39B3EC73C092CBE1B0 /* Pods-NASAppTests-dummy.m */; };
+		FF69CC5DD3FC4B9157C2011C4D10D7E6 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DEA903538DFE2A64557C9215DA92C /* SVProgressHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C4886C02D9D3569EC75C9DFAFF8D590 /* PBXContainerItemProxy */ = {
+		0C7E35ACF48F730242DE0D631EC67FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7494F0E72D3400E36136A25CEEEB941;
+			remoteInfo = SVProgressHUD;
+		};
+		1F79C42ADCDD71ACE06FE34FF642E3CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -55,79 +75,88 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 38450D697E9D4984A254574AA7F693EE;
+			remoteGlobalIDString = AED8B63C50D1CD390D84B42E339511FA;
 			remoteInfo = "Pods-NASApp";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0297486EE7C93F02EE95208C395B5ED7 /* Pods-NASAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NASAppTests.modulemap"; sourceTree = "<group>"; };
-		02DA0EE7A103885B0606126A579FBFF3 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
 		033B5F3662251668E285CDD4ADE2BCE0 /* Pods-NASAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASAppTests-frameworks.sh"; sourceTree = "<group>"; };
 		03E6C63F27F7DE63C0CE3AE7E29AE4B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DD9F1FF08D5D1E848E01F627B669B79 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
-		11373FF82ED248D8BE23AE3AAA7840D6 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
-		17D10678DCDE585C27DF431ED1FC4FCF /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
-		1D1AB57F53E7A8C9B43E7A7FCC1AA411 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
-		1D513054D22F0F7DF537DAE691DF098F /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		0B7DAA655D02D3BBD841091912426B9D /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		14F93C2BD1F831D4D1D161F128F37274 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		191E9F2F22CA888DF55BC4A49BF72A13 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		1F6970FCA3293956CB19B0B7CE1CDF39 /* Pods-NASAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NASAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		20BA0514C43646E144739ED962AAAADC /* Pods-NASApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NASApp-umbrella.h"; sourceTree = "<group>"; };
-		279EC59DF8008633F28806E7D35DF013 /* Pods_NASApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NASApp.framework; path = "Pods-NASApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226AF77680DB807367B05A6C28EE2619 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		281080FAF60B9B1AE2E7CD8DE4F58B9A /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		2ADB45C72A025669C82192DDEAE5E7D7 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9021D0ED371DB73DB1E14A46A0ED44 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		32BA8572F8E17ADF6361DB12B5887A3F /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		3329BD950FB4B8FE21743099F0D8ACEF /* Pods-NASApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3919EA7B48B6CABECB6AD75A96444372 /* Pods-NASApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASApp-frameworks.sh"; sourceTree = "<group>"; };
-		3DF9EA4E7E8A6B7A4EDA54F899FEBE4E /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		402D43B3293206319FFBA07C5913B45D /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51313B06008A49CEE34BA3780BDE1DF3 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		3EBCB6146B49D77A78121549E24C31E8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		454B98FE13C87AA9E7EFE0FD37141682 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F461F85E38B454C232DCB71CC8614D /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		489F76CBA95F2FD53E6AB992D384ADE5 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		4902811CCE6CC71A524EBA6568754419 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		49E34B0F9FAE6D707849A975FBACE188 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		4BFCA291E66DAFC6C56877A7B7A6F830 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		4D31F50207D151418157ABBBB84835A0 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		52B336FC591456A8E9420A7F5E7C08A1 /* Pods-NASApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NASApp.modulemap"; sourceTree = "<group>"; };
-		5323D17289F2C0704726E593D757BCB2 /* Pods_NASAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NASAppTests.framework; path = "Pods-NASAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		593766F839E7E059C1FFDFEFC7279F59 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
 		59918F02A408AF39B3EC73C092CBE1B0 /* Pods-NASAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NASAppTests-dummy.m"; sourceTree = "<group>"; };
-		6004481E9B47EDEBABB32FAC17846F51 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
-		641EFFF236A856B4166FEB2B06E3B66C /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		71287AFAF7C48DDADA45D6AB921B36EF /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
-		750EE1FAF6BA5CD3D6D2A1626883C510 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A45F999C7630504DD87271DD9AB1150 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		5A60BEED6E5EBD7AC8B48291AA81F19A /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		5F545EA335361A10609D713533E1115E /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		616D9BE42DB4DA57AA3F3BC1835D4FC4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		62009A334C82DE53F5B95782C9B6FEEA /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		6715C17842F7B854FF3711C5A8EECF9A /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		6757BEAAFED6697DD560E26C074FE4EB /* Pods_NASAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NASAppTests.framework; path = "Pods-NASAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B0A11CBB8E1245C33049CB9AA303E5 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
+		692A58B891858FE90677A8651C7F31EF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		69406CB8288C14DF3D9D930F3E27AEA6 /* Pods_NASApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NASApp.framework; path = "Pods-NASApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACA336CB3FD2348AD4CF10B0E18E62F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		6B9750478EB5E8BEE0E9244ECDC373DC /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		6C0A32773F2E9C2FF4D2FD177BB995DF /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		7519F3B414842A6BB8598C21B16154F9 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
+		754FEFB4CC4B32D0F0FD37F10EE9722A /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
 		75FC716461BA2EB3059E54B6207228A9 /* Pods-NASApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASApp-resources.sh"; sourceTree = "<group>"; };
-		76EBEEFF6C8E4E7A9FD92E4A3B139319 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		77752E99D313445E0FC628430B65EFE2 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		7AD16CD20D6A0F24E12573E71E8B0A9E /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		7B4DBC39C5C01E0B290D3CE98C9673BC /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		7DD9A26D321EA72233F1E66C6E6F2DB8 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
 		7DFEE535A017EF4958D53D8F1EBF656E /* Pods-NASAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NASAppTests-umbrella.h"; sourceTree = "<group>"; };
+		7E1652FB03FE26C3ACB2A3B1FF08758B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA1632DC2DD47316CE261D14F4C4BCE /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		80CB9B9A9FB5C26ECBC9AA4E8534AD88 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		82BC7BE79E9594BAE65ED745FEB9E15D /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		842DEA903538DFE2A64557C9215DA92C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		84DC27B8906D819659A97D7C1C9514E5 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		88817976687AC18036A72949D1C5E3BC /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		892F3E63A7A824CFA6A2476582E5F855 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89DC365FEF314CAE9760892B813E187E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		90FE6829BD9C36E7A7FCE3FB49F0ABC7 /* Pods-NASApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASApp.release.xcconfig"; sourceTree = "<group>"; };
-		91647A8F0DB816B83E9D56525FA36939 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96521ADF8993985B0F1410485D40F29B /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
 		968FC48B425D8ED2540563E315327B52 /* Pods-NASAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A21BB68CFF1A90165701501253D0DAE9 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
-		A6915372D6C183E4ADBAD6DDB4BA5999 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
+		9727F8345684E2B470057C3E73CF3E68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A6A42FF2EC82AC2B3773C9381B578C18 /* Pods-NASAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASAppTests-resources.sh"; sourceTree = "<group>"; };
-		AE40A7EAEF227D102A4A633F1DD74B7F /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
-		B0BAC26D78DB33794F9BC456BB1F3404 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
-		B5D15DA39C6E2CF68AE532F962CF22B9 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
-		BCAEDAC7F43D1E03236DD2096D0220DA /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
-		BCC094468AAD49AFE1061B6CD18CADAA /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
-		BF81C7B8A9A0ED0708E9264F91C23FB8 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
-		C1AEDA93BB2DAEE0045F78936F199747 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
-		C5ACEF73DDC51ADD99C0C6BBE3FAC8E4 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
-		C6757C44D1A8B62FD3A7062E345EA7F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		C85BC3444EFEC682AEB1D0EBB301C9B1 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
-		CF58A2C8B2D1E80C830DD92F91F41CBD /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		A73CBD27A041DADA9965AE03D10905FF /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		B39659CC638CCDBD0D55151E5BEE04F7 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		B5A2AB494C1626B3DD1A3A5F22C133A0 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3771F0226C761D0C59B45BB997076D5 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		CD8D5A745D6B6AE677E407FE753A64A9 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		D28AF81AB5AFAF0C4D31D30C882ED897 /* Pods-NASAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		DA4898867061D203311A4AC3C7A70B2F /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		F0088FC709E3907A18952C072C9C8368 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		D9F503C168884E292AC0BBAE8CDC7902 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		DA51B2D10C23383BEF338B89C016C672 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		F27EB2475CE4624F201B17AB7D1EDDA3 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		F6B12D59C07B7160C91DBBE56DFDA94B /* Pods-NASApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NASApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		F702E0DB2A90448B8447AA595CE4D11B /* Pods-NASAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NASAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FAF9285B5DE77AC1B29997DA63D72A35 /* Pods-NASApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NASApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD558208F513A70BEAAEF555B991A11C /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		FFE11FCC7FC205777F4CA66E0C3F11FD /* Pods-NASApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NASApp-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CC74BE5302C38D64C85FE726E19E682 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C715D11CC2417DCD5345A9FA957D765 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55C36F7CC1AF497CD89C8420A717D06F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,9 +174,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		904356DF2DD4A3B8217D34501DB802C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8261E91630AED4C338E9E6D44DBA9CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AC9F480F9E7491D2BE4DD8E833DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44FE7EBF23A6907E3D2E2A671B210F7 /* Foundation.framework in Frameworks */,
+				6536D8E83436DEDB85B4BD44DD7C2CD8 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F899299BB191A1F773A6012EF15D62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				454B98FE13C87AA9E7EFE0FD37141682 /* Info.plist */,
+				7FA1632DC2DD47316CE261D14F4C4BCE /* SVProgressHUD.modulemap */,
+				7B4DBC39C5C01E0B290D3CE98C9673BC /* SVProgressHUD.xcconfig */,
+				842DEA903538DFE2A64557C9215DA92C /* SVProgressHUD-dummy.m */,
+				46F461F85E38B454C232DCB71CC8614D /* SVProgressHUD-prefix.pch */,
+				82BC7BE79E9594BAE65ED745FEB9E15D /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FC5B7BF3C0E0B68D6A3BFD6C2F76ED6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ABBD12417E247D176FB7C2541984F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76FE59B2FA1041EFD07333DC65C9CE1A /* Kingfisher */,
+				A1F42B50E644DE1A2BCD8E3708FECAD6 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2A10C89026D6006B5D16F154C4D79204 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,89 +252,109 @@
 			path = "Target Support Files/Pods-NASAppTests";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		463A6BD60D3CF0FF0BE634169CFB6648 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D52304B3F0670EE0236B3F34A532CB30 /* iOS */,
+				B5A2AB494C1626B3DD1A3A5F22C133A0 /* Kingfisher.framework */,
+				69406CB8288C14DF3D9D930F3E27AEA6 /* Pods_NASApp.framework */,
+				6757BEAAFED6697DD560E26C074FE4EB /* Pods_NASAppTests.framework */,
+				2ADB45C72A025669C82192DDEAE5E7D7 /* SVProgressHUD.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		4CD2809F31B80961FC3EBDF1B284FB49 /* Support Files */ = {
+		4FC5B7BF3C0E0B68D6A3BFD6C2F76ED6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				750EE1FAF6BA5CD3D6D2A1626883C510 /* Info.plist */,
-				A21BB68CFF1A90165701501253D0DAE9 /* Kingfisher.modulemap */,
-				C1AEDA93BB2DAEE0045F78936F199747 /* Kingfisher.xcconfig */,
-				BCAEDAC7F43D1E03236DD2096D0220DA /* Kingfisher-dummy.m */,
-				FD558208F513A70BEAAEF555B991A11C /* Kingfisher-prefix.pch */,
-				76EBEEFF6C8E4E7A9FD92E4A3B139319 /* Kingfisher-umbrella.h */,
+				3EBCB6146B49D77A78121549E24C31E8 /* CFNetwork.framework */,
+				9727F8345684E2B470057C3E73CF3E68 /* Foundation.framework */,
+				616D9BE42DB4DA57AA3F3BC1835D4FC4 /* QuartzCore.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Kingfisher";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71072CCAFFD8A3274BE9B65C1B28D9B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				692A58B891858FE90677A8651C7F31EF /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76FE59B2FA1041EFD07333DC65C9CE1A /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				49E34B0F9FAE6D707849A975FBACE188 /* AnimatedImageView.swift */,
+				DA51B2D10C23383BEF338B89C016C672 /* Box.swift */,
+				2B9021D0ED371DB73DB1E14A46A0ED44 /* CacheSerializer.swift */,
+				A73CBD27A041DADA9965AE03D10905FF /* Filter.swift */,
+				191E9F2F22CA888DF55BC4A49BF72A13 /* FormatIndicatedCacheSerializer.swift */,
+				7DD9A26D321EA72233F1E66C6E6F2DB8 /* Image.swift */,
+				5F545EA335361A10609D713533E1115E /* ImageCache.swift */,
+				5A60BEED6E5EBD7AC8B48291AA81F19A /* ImageDownloader.swift */,
+				7519F3B414842A6BB8598C21B16154F9 /* ImageModifier.swift */,
+				0B7DAA655D02D3BBD841091912426B9D /* ImagePrefetcher.swift */,
+				B39659CC638CCDBD0D55151E5BEE04F7 /* ImageProcessor.swift */,
+				754FEFB4CC4B32D0F0FD37F10EE9722A /* ImageTransition.swift */,
+				6C0A32773F2E9C2FF4D2FD177BB995DF /* ImageView+Kingfisher.swift */,
+				D9F503C168884E292AC0BBAE8CDC7902 /* Indicator.swift */,
+				96521ADF8993985B0F1410485D40F29B /* Kingfisher.h */,
+				226AF77680DB807367B05A6C28EE2619 /* Kingfisher.swift */,
+				84DC27B8906D819659A97D7C1C9514E5 /* KingfisherManager.swift */,
+				62009A334C82DE53F5B95782C9B6FEEA /* KingfisherOptionsInfo.swift */,
+				68B0A11CBB8E1245C33049CB9AA303E5 /* Placeholder.swift */,
+				4902811CCE6CC71A524EBA6568754419 /* RequestModifier.swift */,
+				5A45F999C7630504DD87271DD9AB1150 /* Resource.swift */,
+				7AD16CD20D6A0F24E12573E71E8B0A9E /* String+MD5.swift */,
+				6B9750478EB5E8BEE0E9244ECDC373DC /* ThreadHelper.swift */,
+				489F76CBA95F2FD53E6AB992D384ADE5 /* UIButton+Kingfisher.swift */,
+				A5CDBF74C8D4401ADEDC56FDF88788BC /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				E248B959E99B38D30B3965DF227016AF /* Pods */,
-				80F57C9278D972DFC7CA662246D7D4AD /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				1ABBD12417E247D176FB7C2541984F8A /* Pods */,
+				463A6BD60D3CF0FF0BE634169CFB6648 /* Products */,
 				2A10C89026D6006B5D16F154C4D79204 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80F57C9278D972DFC7CA662246D7D4AD /* Products */ = {
+		A1F42B50E644DE1A2BCD8E3708FECAD6 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				402D43B3293206319FFBA07C5913B45D /* Kingfisher.framework */,
-				279EC59DF8008633F28806E7D35DF013 /* Pods_NASApp.framework */,
-				5323D17289F2C0704726E593D757BCB2 /* Pods_NASAppTests.framework */,
+				88817976687AC18036A72949D1C5E3BC /* SVIndefiniteAnimatedView.h */,
+				F27EB2475CE4624F201B17AB7D1EDDA3 /* SVIndefiniteAnimatedView.m */,
+				32BA8572F8E17ADF6361DB12B5887A3F /* SVProgressAnimatedView.h */,
+				4BFCA291E66DAFC6C56877A7B7A6F830 /* SVProgressAnimatedView.m */,
+				281080FAF60B9B1AE2E7CD8DE4F58B9A /* SVProgressHUD.h */,
+				80CB9B9A9FB5C26ECBC9AA4E8534AD88 /* SVProgressHUD.m */,
+				C3771F0226C761D0C59B45BB997076D5 /* SVRadialGradientLayer.h */,
+				6ACA336CB3FD2348AD4CF10B0E18E62F /* SVRadialGradientLayer.m */,
+				71072CCAFFD8A3274BE9B65C1B28D9B5 /* Resources */,
+				07F899299BB191A1F773A6012EF15D62 /* Support Files */,
 			);
-			name = Products;
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		94C800655EEE09C3732B53B4DAFDE119 /* Kingfisher */ = {
+		A5CDBF74C8D4401ADEDC56FDF88788BC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				17D10678DCDE585C27DF431ED1FC4FCF /* AnimatedImageView.swift */,
-				DA4898867061D203311A4AC3C7A70B2F /* Box.swift */,
-				1D1AB57F53E7A8C9B43E7A7FCC1AA411 /* CacheSerializer.swift */,
-				11373FF82ED248D8BE23AE3AAA7840D6 /* Filter.swift */,
-				51313B06008A49CEE34BA3780BDE1DF3 /* FormatIndicatedCacheSerializer.swift */,
-				AE40A7EAEF227D102A4A633F1DD74B7F /* Image.swift */,
-				6004481E9B47EDEBABB32FAC17846F51 /* ImageCache.swift */,
-				02DA0EE7A103885B0606126A579FBFF3 /* ImageDownloader.swift */,
-				A6915372D6C183E4ADBAD6DDB4BA5999 /* ImageModifier.swift */,
-				BF81C7B8A9A0ED0708E9264F91C23FB8 /* ImagePrefetcher.swift */,
-				71287AFAF7C48DDADA45D6AB921B36EF /* ImageProcessor.swift */,
-				C5ACEF73DDC51ADD99C0C6BBE3FAC8E4 /* ImageTransition.swift */,
-				3DF9EA4E7E8A6B7A4EDA54F899FEBE4E /* ImageView+Kingfisher.swift */,
-				B0BAC26D78DB33794F9BC456BB1F3404 /* Indicator.swift */,
-				CF58A2C8B2D1E80C830DD92F91F41CBD /* Kingfisher.h */,
-				593766F839E7E059C1FFDFEFC7279F59 /* Kingfisher.swift */,
-				0DD9F1FF08D5D1E848E01F627B669B79 /* KingfisherManager.swift */,
-				641EFFF236A856B4166FEB2B06E3B66C /* KingfisherOptionsInfo.swift */,
-				C85BC3444EFEC682AEB1D0EBB301C9B1 /* Placeholder.swift */,
-				91647A8F0DB816B83E9D56525FA36939 /* RequestModifier.swift */,
-				B5D15DA39C6E2CF68AE532F962CF22B9 /* Resource.swift */,
-				BCC094468AAD49AFE1061B6CD18CADAA /* String+MD5.swift */,
-				F0088FC709E3907A18952C072C9C8368 /* ThreadHelper.swift */,
-				1D513054D22F0F7DF537DAE691DF098F /* UIButton+Kingfisher.swift */,
-				4CD2809F31B80961FC3EBDF1B284FB49 /* Support Files */,
+				7E1652FB03FE26C3ACB2A3B1FF08758B /* Info.plist */,
+				CD8D5A745D6B6AE677E407FE753A64A9 /* Kingfisher.modulemap */,
+				14F93C2BD1F831D4D1D161F128F37274 /* Kingfisher.xcconfig */,
+				77752E99D313445E0FC628430B65EFE2 /* Kingfisher-dummy.m */,
+				4D31F50207D151418157ABBBB84835A0 /* Kingfisher-prefix.pch */,
+				6715C17842F7B854FF3711C5A8EECF9A /* Kingfisher-umbrella.h */,
 			);
-			name = Kingfisher;
-			path = Kingfisher;
-			sourceTree = "<group>";
-		};
-		D52304B3F0670EE0236B3F34A532CB30 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C6757C44D1A8B62FD3A7062E345EA7F6 /* CFNetwork.framework */,
-				89DC365FEF314CAE9760892B813E187E /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
 			sourceTree = "<group>";
 		};
 		DC2433E279206083C565FC2AA235645A /* Pods-NASApp */ = {
@@ -278,22 +375,18 @@
 			path = "Target Support Files/Pods-NASApp";
 			sourceTree = "<group>";
 		};
-		E248B959E99B38D30B3965DF227016AF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				94C800655EEE09C3732B53B4DAFDE119 /* Kingfisher */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4CE27AEB680501369D4763202C1F965E /* Headers */ = {
+		15AB64D7C6DB1476B1940752F4FB4AD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7152AB4DCA3D010ADA51F5D2ADF4911 /* Pods-NASApp-umbrella.h in Headers */,
+				6533AB343B86DA0833C73109F6EB92A0 /* SVIndefiniteAnimatedView.h in Headers */,
+				5BCDDB2CB827A934F2C722A04FBCCD4E /* SVProgressAnimatedView.h in Headers */,
+				4F7BC1E8189AC06DEFCE281858F5CF92 /* SVProgressHUD-umbrella.h in Headers */,
+				0BCD906D9D3493C69973FEB9C09B3A11 /* SVProgressHUD.h in Headers */,
+				EBA687D681AFA410D8A0D5B33D20EA62 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,28 +407,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8B5624937988290E1C21DA98ED240A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25B18D387BAAE02B2EB6A9A914F8D69 /* Pods-NASApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		38450D697E9D4984A254574AA7F693EE /* Pods-NASApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D84090A2F49BF757A308DE4CC514FD3E /* Build configuration list for PBXNativeTarget "Pods-NASApp" */;
-			buildPhases = (
-				4CE27AEB680501369D4763202C1F965E /* Headers */,
-				A60ABCC934A88E5B2FE83B401C38B05F /* Sources */,
-				3CC74BE5302C38D64C85FE726E19E682 /* Frameworks */,
-				E35BAEF461ED0E153F2EE6E8F86AC6AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				15847565933293381C87B877A1C85B64 /* PBXTargetDependency */,
-			);
-			name = "Pods-NASApp";
-			productName = "Pods-NASApp";
-			productReference = 279EC59DF8008633F28806E7D35DF013 /* Pods_NASApp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A15CD3220CB655EF65975142EDBD8C6E /* Kingfisher */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 055CB86039F87F17BFAACCE5B1899A4E /* Build configuration list for PBXNativeTarget "Kingfisher" */;
@@ -351,7 +433,27 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = 402D43B3293206319FFBA07C5913B45D /* Kingfisher.framework */;
+			productReference = B5A2AB494C1626B3DD1A3A5F22C133A0 /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AED8B63C50D1CD390D84B42E339511FA /* Pods-NASApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE57D66A60D1B3BB79E1FC8A12056A94 /* Build configuration list for PBXNativeTarget "Pods-NASApp" */;
+			buildPhases = (
+				F8B5624937988290E1C21DA98ED240A4 /* Headers */,
+				A2227B17D1634405CEF06BFC4DF476F0 /* Sources */,
+				904356DF2DD4A3B8217D34501DB802C1 /* Frameworks */,
+				2806BF8F21040AFA3D53D36048294871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9B13B9B77A84E5E12153AE4EB2534E /* PBXTargetDependency */,
+				9F024F3B582BB5EBEC1BB532564E9077 /* PBXTargetDependency */,
+			);
+			name = "Pods-NASApp";
+			productName = "Pods-NASApp";
+			productReference = 69406CB8288C14DF3D9D930F3E27AEA6 /* Pods_NASApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E519619FD7DE4DB4B1B8B65D57E707AC /* Pods-NASAppTests */ = {
@@ -370,7 +472,25 @@
 			);
 			name = "Pods-NASAppTests";
 			productName = "Pods-NASAppTests";
-			productReference = 5323D17289F2C0704726E593D757BCB2 /* Pods_NASAppTests.framework */;
+			productReference = 6757BEAAFED6697DD560E26C074FE4EB /* Pods_NASAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7494F0E72D3400E36136A25CEEEB941 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737604664ED2B36B873EE29B0EBC60EC /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				15AB64D7C6DB1476B1940752F4FB4AD2 /* Headers */,
+				7B1B222AA0FFA44B2BEBF6BE652B3AC9 /* Sources */,
+				C09AC9F480F9E7491D2BE4DD8E833DD0 /* Frameworks */,
+				D569FEEEC67A8D040900EFBF8F655446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 2ADB45C72A025669C82192DDEAE5E7D7 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -390,18 +510,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 80F57C9278D972DFC7CA662246D7D4AD /* Products */;
+			productRefGroup = 463A6BD60D3CF0FF0BE634169CFB6648 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A15CD3220CB655EF65975142EDBD8C6E /* Kingfisher */,
-				38450D697E9D4984A254574AA7F693EE /* Pods-NASApp */,
+				AED8B63C50D1CD390D84B42E339511FA /* Pods-NASApp */,
 				E519619FD7DE4DB4B1B8B65D57E707AC /* Pods-NASAppTests */,
+				F7494F0E72D3400E36136A25CEEEB941 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2806BF8F21040AFA3D53D36048294871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		907E8FAD109F4265A17FD9B5C5BCDD9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,16 +544,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E35BAEF461ED0E153F2EE6E8F86AC6AC /* Resources */ = {
+		D569FEEEC67A8D040900EFBF8F655446 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDEA2C9F9D1DAF7CC519B3359541E70B /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7B1B222AA0FFA44B2BEBF6BE652B3AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B466C9DC0A8C4432E78B90B2BC8239B /* SVIndefiniteAnimatedView.m in Sources */,
+				340D522C7B17026B6AA052AA8520B8F4 /* SVProgressAnimatedView.m in Sources */,
+				FF69CC5DD3FC4B9157C2011C4D10D7E6 /* SVProgressHUD-dummy.m in Sources */,
+				2E65457DBC5AF1923921135655EEBC2D /* SVProgressHUD.m in Sources */,
+				5572BE5E7A7B74B9A757519C917F5209 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A16514D68D029E98AC83F352050E9BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,11 +575,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A60ABCC934A88E5B2FE83B401C38B05F /* Sources */ = {
+		A2227B17D1634405CEF06BFC4DF476F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC361580AD57BDCF4999A1D8C5F7067 /* Pods-NASApp-dummy.m in Sources */,
+				250AC9CBEB39F1F7ADD8227CF28ECAEF /* Pods-NASApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,17 +617,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15847565933293381C87B877A1C85B64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = A15CD3220CB655EF65975142EDBD8C6E /* Kingfisher */;
-			targetProxy = 5C4886C02D9D3569EC75C9DFAFF8D590 /* PBXContainerItemProxy */;
-		};
 		61B6FE73EEAEDDCF77C32364683CECEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NASApp";
-			target = 38450D697E9D4984A254574AA7F693EE /* Pods-NASApp */;
+			target = AED8B63C50D1CD390D84B42E339511FA /* Pods-NASApp */;
 			targetProxy = 8F9186A0BA71D3C8A2FB7AB327ADA072 /* PBXContainerItemProxy */;
+		};
+		8B9B13B9B77A84E5E12153AE4EB2534E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = A15CD3220CB655EF65975142EDBD8C6E /* Kingfisher */;
+			targetProxy = 1F79C42ADCDD71ACE06FE34FF642E3CD /* PBXContainerItemProxy */;
+		};
+		9F024F3B582BB5EBEC1BB532564E9077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = F7494F0E72D3400E36136A25CEEEB941 /* SVProgressHUD */;
+			targetProxy = 0C7E35ACF48F730242DE0D631EC67FDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -523,6 +670,87 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D93B2BEFB4A27769BF6D9693ABF18E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3329BD950FB4B8FE21743099F0D8ACEF /* Pods-NASApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NASApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NASApp/Pods-NASApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		386FC95DA85F657D7176FFD2AFD5B8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FE6829BD9C36E7A7FCE3FB49F0ABC7 /* Pods-NASApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NASApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NASApp/Pods-NASApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -627,12 +855,10 @@
 			};
 			name = Debug;
 		};
-		71BD4A001C4EAFD3EDB83E0AFA989A60 /* Debug */ = {
+		4E9E27E21C8DFCD9DBE09B0D0B7C8912 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3329BD950FB4B8FE21743099F0D8ACEF /* Pods-NASApp.debug.xcconfig */;
+			baseConfigurationReference = 7B4DBC39C5C01E0B290D3CE98C9673BC /* SVProgressHUD.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -642,25 +868,58 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NASApp/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NASApp/Pods-NASApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		846107E33ACD37DC2E359E2C59212807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4DBC39C5C01E0B290D3CE98C9673BC /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -733,7 +992,7 @@
 		};
 		8B0D9D629793E3B1703461BED209214A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1AEDA93BB2DAEE0045F78936F199747 /* Kingfisher.xcconfig */;
+			baseConfigurationReference = 14F93C2BD1F831D4D1D161F128F37274 /* Kingfisher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -769,50 +1028,9 @@
 			};
 			name = Release;
 		};
-		BC3588439769271EE792D789BE4E6A5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90FE6829BD9C36E7A7FCE3FB49F0ABC7 /* Pods-NASApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NASApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NASApp/Pods-NASApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DE9B7A0AF27891101E5C85A5FCCFFB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1AEDA93BB2DAEE0045F78936F199747 /* Kingfisher.xcconfig */;
+			baseConfigurationReference = 14F93C2BD1F831D4D1D161F128F37274 /* Kingfisher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -876,11 +1094,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D84090A2F49BF757A308DE4CC514FD3E /* Build configuration list for PBXNativeTarget "Pods-NASApp" */ = {
+		737604664ED2B36B873EE29B0EBC60EC /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71BD4A001C4EAFD3EDB83E0AFA989A60 /* Debug */,
-				BC3588439769271EE792D789BE4E6A5B /* Release */,
+				846107E33ACD37DC2E359E2C59212807 /* Debug */,
+				4E9E27E21C8DFCD9DBE09B0D0B7C8912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE57D66A60D1B3BB79E1FC8A12056A94 /* Build configuration list for PBXNativeTarget "Pods-NASApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D93B2BEFB4A27769BF6D9693ABF18E4 /* Debug */,
+				386FC95DA85F657D7176FFD2AFD5B8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
